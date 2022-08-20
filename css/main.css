@@ -193,3 +193,51 @@ a {
 }
 
 
+/* Fashion Women`s and Men`s */
+.fashion {
+    padding: 60px 0;
+}
+
+.fashion__row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 22px;
+}
+
+.fashion__row-item {
+    width: 268px;
+}
+
+.fashion__row-item-img {
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+.fashion__row-item-subtitle {
+    font-weight: 300;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.fashion__row-item-title {
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.fashion__row-item-price {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.fashion__row-item-price--black {
+    text-decoration: line-through;
+}
+.fashion__row-item-price--red {
+    color: #CF2929;
+}
+
+
