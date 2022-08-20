@@ -5,11 +5,11 @@ body {
     font-weight: 400;
     font-size: 15px;
     color: #22262A;
-    background: #E5E5E5;
+    background: #FFFFFF;
 }
 
 a {
-    color: #22262A !important;
+    color: #22262A;
 }
 
 .container {
@@ -36,13 +36,14 @@ a {
 /* .subtitle__section {} */
 
 .btn {
-    display: block;
-    padding: 4px 28px;
+    display: inline-block;
+    padding: 5px 28px;
     background: #22262A;
     font-weight: 500;
     font-size: 18px;
     color: #FFFFFF;
-    transition: all .5s ease-in;
+    transition: all .3s ease-in;
+    border-radius: 5px;
 }
 
 .btn:hover {
@@ -50,13 +51,13 @@ a {
 }
 
 .btn:active {
-    transform: translateY(2px);
+    transform: translateY(1px);
 }
 
 
 /* Header */
 .header {
-    padding: 30px 0;
+    padding: 25px 0;
     background: #FFFFFF;
 }
 
@@ -105,4 +106,43 @@ a {
     column-gap: 45px;
 }
 
+/* Collusion */
+.collusion {
+    padding-top: 400px;
+    padding-bottom: 120px;
+    
+    background-image: url(../img/collusion/collusion-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+}
+
+.collusion__content {
+   width: 455px;
+   margin-left: auto;
+}
+
+.collusion__subtitle {
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.collusion__title {
+    font-weight: 700;
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+.collusion__desc {
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.collusion__buttons {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
 
