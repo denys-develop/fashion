@@ -336,3 +336,148 @@ a {
     font-size: 80px;
     margin-bottom: 20px;
 }
+
+/* Footer */
+.footer__top {
+    padding: 115px 0 105px;
+    background: #F2F8FC;
+}
+
+.footer__top-row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    column-gap: 195px;
+}
+
+.footer__top-contact {
+    width: 405px;
+}
+
+.logo--footer {
+    margin-bottom: 17px;
+}
+
+.footer__top-contact-desc {
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.footer__top-contact-location {
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+    margin-bottom: 20px;
+}
+
+.footer__top-contact-location::before {
+    content: "";
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-image: url(../img/footer/location.svg);
+    background-repeat: no-repeat;
+}
+
+.footer__top-contact-mail {
+    display: block;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.footer__top-contact-mail::after {
+    content: "";
+    display: block;
+    width: 237px;
+    margin-top: 8px;
+    border-bottom: 1px solid #22262A;
+}
+
+.footer__top-contact-tel {
+    display: block;
+    margin-bottom: 16px;
+}
+
+.footer__top-contact-icons {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.footer__top-contact-icons-link {
+    transition: all .3s ease;
+}
+
+.footer__top-contact-icons-link:active {
+    opacity: 0.7;
+}
+
+.footer__top-menu {
+    width: 532px;
+}
+
+.footer__top-menu-title {
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 24px;
+}
+
+.footer__form {
+    width: 100%;
+    padding: 11px 23px;
+    display: flex;
+    align-items: center;
+    column-gap: 200px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.07);
+    border-radius: 5px;
+    margin-bottom: 70px;
+}
+
+.input__email {
+    width: 245px;
+    background: transparent;
+    padding: 2px 0;
+}
+
+.form__btn {
+    display: block;
+    background-color: transparent;
+    font-weight: 600;
+}
+
+.footer__top-menu-list {
+    display: flex;
+    align-items: flex-start;
+    column-gap: 88px;
+}
+
+.footer__top-menu-list-item {
+    display: flex;
+    flex-direction: column;
+    row-gap: 21px;
+}
+
+.footer__top-menu-list-item-title {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.footer__top-menu-list-item-link {
+    transition: all .3s ease-in;
+}
+
+.footer__top-menu-list-item-link:hover {
+    color: #CF2929;
+}
+
+.footer__copy {
+    padding: 35px 0;
+    background: #E7F5F8;
+}
+
+.footer__copy-content {
+    text-align: center;
+}
+/* END */
