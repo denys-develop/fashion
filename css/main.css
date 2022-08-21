@@ -108,18 +108,17 @@ a {
 
 /* Collusion */
 .collusion {
-    padding-top: 400px;
-    padding-bottom: 120px;
-    
     background-image: url(../img/collusion/collusion-bg.jpg);
     background-repeat: no-repeat;
-    background-position: 0 0;
+    background-position: center;
     background-size: cover;
 }
 
 .collusion__content {
    width: 455px;
    margin-left: auto;
+   padding-top: 400px;
+   padding-bottom: 140px;
 }
 
 .collusion__subtitle {
@@ -242,7 +241,7 @@ a {
 
 /* Avone styles*/
 .avone-styles {
-    padding: 60px 0;
+    padding: 60px 0 120px;
 }
 
 .avone-styles__row {
@@ -311,4 +310,29 @@ a {
     position: absolute;
     left: 0;
     bottom: -5px;
+}
+
+/* Collection */
+.shop-collection {
+    background-image: url(../img/shop-collection/shop-collection-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.shop-collection__content {
+    padding-top: 434px;
+    padding-bottom: 129px;
+}
+
+.shop-collection__subtitle {
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.shop-collection__title {
+    font-weight: 700;
+    font-size: 80px;
+    margin-bottom: 20px;
 }
